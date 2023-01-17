@@ -884,7 +884,7 @@
      <string>상품관리</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="inventory_btn_2">
+   <widget class="QPushButton" name="logout_btn">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -909,7 +909,7 @@
    <zorder>order_btn</zorder>
    <zorder>question_btn</zorder>
    <zorder>product_btn</zorder>
-   <zorder>inventory_btn_2</zorder>
+   <zorder>logout_btn</zorder>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
