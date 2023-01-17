@@ -43,7 +43,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>5</number>
+     <number>4</number>
     </property>
     <widget class="QWidget" name="page_6">
      <widget class="QLabel" name="label_17">
@@ -59,7 +59,7 @@
        <string>1</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_3">
+     <widget class="QPushButton" name="login_btn">
       <property name="geometry">
        <rect>
         <x>380</x>
@@ -97,7 +97,7 @@
        <string>아이디</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_2">
+     <widget class="QLineEdit" name="login_id">
       <property name="geometry">
        <rect>
         <x>240</x>
@@ -126,7 +126,7 @@
        <string>비밀번호</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_3">
+     <widget class="QLineEdit" name="login_pw">
       <property name="geometry">
        <rect>
         <x>240</x>
@@ -157,7 +157,7 @@
        <string>로그인</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_5">
+     <widget class="QPushButton" name="join_btn0">
       <property name="geometry">
        <rect>
         <x>200</x>
@@ -176,7 +176,7 @@
        <string>회원가입</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_16">
+     <widget class="QPushButton" name="haejang_pic">
       <property name="geometry">
        <rect>
         <x>560</x>
@@ -190,7 +190,7 @@
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>해장국.jpg</normaloff>해장국.jpg</iconset>
+        <normaloff>9팀_3/해장국.jpg</normaloff>9팀_3/해장국.jpg</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -214,7 +214,7 @@
        <string>2</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_4">
+     <widget class="QLineEdit" name="join_pw">
       <property name="geometry">
        <rect>
         <x>220</x>
@@ -264,7 +264,7 @@
        <string>아이디</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_5">
+     <widget class="QLineEdit" name="join_id">
       <property name="geometry">
        <rect>
         <x>220</x>
@@ -274,7 +274,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_7">
+     <widget class="QPushButton" name="db_chk">
       <property name="geometry">
        <rect>
         <x>510</x>
@@ -312,7 +312,7 @@
        <string>비밀번호</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_6">
+     <widget class="QLineEdit" name="join_pw_chk">
       <property name="geometry">
        <rect>
         <x>220</x>
@@ -360,7 +360,7 @@
        <string>이 름</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_7">
+     <widget class="QLineEdit" name="join_name">
       <property name="geometry">
        <rect>
         <x>220</x>
@@ -389,7 +389,7 @@
        <string>연 락 처</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_8">
+     <widget class="QLineEdit" name="join_tel">
       <property name="geometry">
        <rect>
         <x>220</x>
@@ -399,7 +399,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_8">
+     <widget class="QPushButton" name="join_1">
       <property name="geometry">
        <rect>
         <x>510</x>
@@ -473,7 +473,7 @@
        <string>상품명</string>
       </property>
      </widget>
-     <widget class="QComboBox" name="comboBox">
+     <widget class="QComboBox" name="product_combo">
       <property name="geometry">
        <rect>
         <x>130</x>
@@ -502,7 +502,7 @@
        <string>판매가</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_9">
+     <widget class="QLineEdit" name="price">
       <property name="geometry">
        <rect>
         <x>130</x>
@@ -531,7 +531,7 @@
        <string>재고수량</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_10">
+     <widget class="QLineEdit" name="quantity">
       <property name="geometry">
        <rect>
         <x>130</x>
@@ -541,7 +541,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_15">
+     <widget class="QPushButton" name="product_save_btn">
       <property name="geometry">
        <rect>
         <x>370</x>
@@ -554,7 +554,7 @@
        <string>저장하기</string>
       </property>
      </widget>
-     <widget class="QTableWidget" name="tableWidget_2">
+     <widget class="QTableWidget" name="product_tableWidget">
       <property name="geometry">
        <rect>
         <x>70</x>
@@ -619,7 +619,7 @@
        <string>조회기간</string>
       </property>
      </widget>
-     <widget class="QCalendarWidget" name="calendarWidget">
+     <widget class="QCalendarWidget" name="order_cw">
       <property name="geometry">
        <rect>
         <x>280</x>
@@ -762,7 +762,7 @@
        <string>구매자명</string>
       </property>
      </widget>
-     <widget class="QTableWidget" name="tableWidget">
+     <widget class="QTableWidget" name="order_tableWidget">
       <property name="geometry">
        <rect>
         <x>10</x>
@@ -772,7 +772,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton">
+     <widget class="QPushButton" name="order_btn">
       <property name="geometry">
        <rect>
         <x>10</x>
@@ -791,7 +791,7 @@
        <string>주문관리</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_2">
+     <widget class="QPushButton" name="question_btn">
       <property name="geometry">
        <rect>
         <x>10</x>
@@ -810,7 +810,7 @@
        <string>문의관리</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_6">
+     <widget class="QPushButton" name="inventory_btn">
       <property name="geometry">
        <rect>
         <x>10</x>
@@ -844,7 +844,7 @@
        <string>5</string>
       </property>
      </widget>
-     <widget class="QTextEdit" name="textEdit">
+     <widget class="QTextEdit" name="question_textEdit">
       <property name="geometry">
        <rect>
         <x>190</x>
@@ -854,7 +854,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_4">
+     <widget class="QPushButton" name="answer_btn">
       <property name="geometry">
        <rect>
         <x>720</x>
@@ -873,7 +873,7 @@
        <string>답변하기</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit">
+     <widget class="QLineEdit" name="answer_lineEdit">
       <property name="geometry">
        <rect>
         <x>190</x>
@@ -904,7 +904,7 @@
        <string>문의관리</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_9">
+     <widget class="QPushButton" name="inventory_btn_2">
       <property name="geometry">
        <rect>
         <x>10</x>
@@ -923,7 +923,7 @@
        <string>재고관리</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_10">
+     <widget class="QPushButton" name="order_btn_2">
       <property name="geometry">
        <rect>
         <x>10</x>
@@ -942,7 +942,7 @@
        <string>주문관리</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_11">
+     <widget class="QPushButton" name="question_btn_2">
       <property name="geometry">
        <rect>
         <x>10</x>
@@ -997,7 +997,7 @@
        <string>재고관리</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_12">
+     <widget class="QPushButton" name="inventory_btn_3">
       <property name="geometry">
        <rect>
         <x>10</x>
@@ -1016,7 +1016,7 @@
        <string>재고관리</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_13">
+     <widget class="QPushButton" name="order_btn_3">
       <property name="geometry">
        <rect>
         <x>10</x>
@@ -1035,7 +1035,7 @@
        <string>주문관리</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_14">
+     <widget class="QPushButton" name="question_btn_3">
       <property name="geometry">
        <rect>
         <x>10</x>
@@ -1054,7 +1054,7 @@
        <string>문의관리</string>
       </property>
      </widget>
-     <widget class="QTableWidget" name="tableWidget_3">
+     <widget class="QTableWidget" name="inventory_tableWidget">
       <property name="geometry">
        <rect>
         <x>140</x>
