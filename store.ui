@@ -43,7 +43,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>4</number>
     </property>
     <widget class="QWidget" name="page_6">
      <widget class="QLabel" name="label_17">
@@ -675,16 +675,6 @@
        <string>5</string>
       </property>
      </widget>
-     <widget class="QTextEdit" name="question_textEdit">
-      <property name="geometry">
-       <rect>
-        <x>190</x>
-        <y>70</y>
-        <width>651</width>
-        <height>381</height>
-       </rect>
-      </property>
-     </widget>
      <widget class="QPushButton" name="answer_btn">
       <property name="geometry">
        <rect>
@@ -733,6 +723,19 @@
       </property>
       <property name="text">
        <string>문의관리</string>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="inquiry_tableWidget">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>100</y>
+        <width>621</width>
+        <height>331</height>
+       </rect>
+      </property>
+      <property name="selectionBehavior">
+       <enum>QAbstractItemView::SelectRows</enum>
       </property>
      </widget>
     </widget>
